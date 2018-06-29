@@ -22,7 +22,7 @@ for argv in ${@}; do
         hcltool ${FILE} ${JSON}
         call_packer ${@}
         rm ${JSON}
-        exit $?
+        exit 0
     fi
 done
 
