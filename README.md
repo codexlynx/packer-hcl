@@ -1,2 +1,3 @@
 # packer-hcl
-HCL support for Packer
+
+Wrapper that adds HCL support for Packer.
